@@ -60,7 +60,5 @@ logs/
 # OS
 .DS_Store
 
-# App data (uploaded + processed)
-Data/Raw/
-Data/Processed/
+
 
