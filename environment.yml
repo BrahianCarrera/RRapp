@@ -1,0 +1,9 @@
+name: RRApp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - streamlit
+      - pandas

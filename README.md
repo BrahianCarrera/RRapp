@@ -1,7 +1,33 @@
 # RRAv0_1.py - Validación de Pacientes
 
-## Run
-`streamlit run RRAv0_1.py`
+## Setup and run
+
+### Option 1: Conda (`environment.yml`)
+```bash
+conda env create -f environment.yml
+conda activate RRApp
+streamlit run RRAv0_1.py
+```
+
+## Folder structure
+```text
+Radiology_Report_App/
+├── RRAv0_1.py
+├── README.md
+├── requirements.txt
+├── environment.yml
+└── Data/
+    ├── Raw/
+    └── Processed/
+```
+
+### Option 2: pip (`requirements.txt`)
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run RRAv0_1.py
+```
 
 ## How to use
 1. In the sidebar, upload the patient CSV (`.csv`). The app accepts `;` or `,` as the delimiter.
